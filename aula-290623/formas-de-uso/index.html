@@ -1,0 +1,41 @@
+<!--
+CSS= Cascading Style Sheets = Folhas de estilo em cascata
+
+-> Trazer estilização ao HTML
+-> Consistência visual 
+
+INLINE = DIRETO NA TAG
+TAG STYLE = FICA DENTRO DO HTML
+ARQUIVO EXTERNO, MELHOR FORMA
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formas de Uso</title>
+    <!-- 2ª Forma: tag style, tag utilizada para aplicar css, geralgente dentro do head -->
+    <style>
+        h1 {
+            color: orange;
+            text-decoration: underline;
+        }
+    </style>
+    <!-- 3ª FORMA: ARQUIVO EXTERNO. Linkar o index com o artigo Style -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <p>Eu sou um parágrafo normal.</p>
+
+    <!-- 1ª Forma: Inline (attr style)-->
+    <p style="color: red; font-weight: bold">EU TO ZANGADO</p>
+    <p style="color: green; font-style: italic;">AGORA TO DE BOA</p>
+    <hr>
+    
+    <h1>Bem-Vindo(a) ao CSS</h1>
+    <h1>Tudo bem?</h1>
+    <hr>
+    <h2>Estudando formas de uso</h2>
+    <h2>Dia lindo demais!</h2>
+    <img src="https://images.unsplash.com/photo-1635282922712-97888dc706dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Paisagem">
+</body>
+</html>
