@@ -1,0 +1,31 @@
+body {
+    /*O font-family é herdado para os descendentes*/
+    /*fallback= caso a fonte falh, ele aplica uma padrão do sistema, nesse caso sans-serif*/
+    font-family: "Lato", sans-serif;
+    background-color: bisque; /*Essa propriedade não é herdade pelos descendentes*/
+    color: white; /*Herdada*/
+}
+
+.codigo {
+    font-family: fantasy;
+    color: red;
+}
+
+/*PRIORIDADE = CSS define quais propriedades
+serão aplicadas ou sobrescritas
+
+inline > tag style > arquivo externo
+atributo style > #id > .classe > seletor de tipo
+*/
+h1, h2, h3 {
+    background-color: brown;
+    text-decoration: line-through;
+}
+
+.custom-h1 {
+    background-color: blue;
+}
+
+#meu-h1 {
+    background-color: chartreuse;
+}

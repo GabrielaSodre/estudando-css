@@ -1,0 +1,38 @@
+/*
+REM = Medida relativa ao elemento HTML
+*/
+.container h1,
+.container h2,
+.container h3 {
+    /*left, center, right, justify*/
+    text-align: center;
+    /*italic, oblique*/
+    font-style: italic;
+    font-weight: lighter;
+    color: orchid;
+}
+
+.container h1 {
+    font-size: 3rem; /*3 x 16px = 48px*/
+}
+
+.container h2 {
+    font-size: 2.5rem; /*3 x 16px = 48px*/
+}
+
+
+.container h3 {
+    font-size: 2rem; /*3 x 16px = 48px*/
+}
+
+
+.container p {
+    text-align: justify;
+    font-size: 1.25rem; /*3 x 16px = 48px*/
+}
+
+html {
+    font-size: 16px;
+    /*Esse valor 16 é uma base que podemos alterar, ai o calculo do rem será sempre feito em cima desse valor, ou seja se aumentarmos esse campo para 20px então h1 será 3rem = 3 * 20 = 60px e então a fonte aumentara na proporção que quisermos, deixando o código mais dinâmicos e responsivo*/
+}
+

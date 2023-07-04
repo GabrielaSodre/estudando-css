@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url("https://soulcode.com/assets/images/logo/light-logo.png");
+    /*no-repeat repear-x repear-y*/
+    background-repeat: no-repeat;
+    /* background-position: top right; */
+    background-position: center;
+    background-attachment: fixed; /*faz a imagem acompanhar o scroll*/
+    background-size: 300px; /*Define a largura  ea altura será automática*/
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    border-radius: 100%;
+    background-image: url("https://images.unsplash.com/photo-1687704840383-959f27cf03c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

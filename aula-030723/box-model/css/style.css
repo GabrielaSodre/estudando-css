@@ -1,0 +1,44 @@
+/*
+Box Model = podemos configurar a aparência da caixa dos elementos
+padding = preenchimento
+margu=in = espaçamento externo
+border =  contorno
+
+*/
+
+
+.box1 {
+    background-color: coral;
+    text-align: justify;
+    padding: 16px; /*preenchimento em todos os lados*/
+    margin: 50px; /*margem externa em todos os lados*/
+}
+
+.box2 {
+    background-color: yellow;
+    padding: 10px 15px 20px 10px; /* TOP RIGHT BOTTOM LEFT. Sentido horário*/
+    /* margin: 30px 10px 10px 10px; */
+    margin: 25px 10px; /* Lateais iguais e topo e embaixo tambem iguais*/
+}
+
+.box3{
+    background-color: brown;
+    border: 5px dotted greenyellow;
+}
+
+.box4 {
+    background-color: tomato;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid yellow;
+    width: 200px;
+    height: 300;
+    /*Indica ao css para levar em cont nos 200px a borda e o padding*/
+    box-sizing: border-box;
+}
+
+/*Seletor universal = seleciona todos os elementos da página */
+* {
+    box-sizing: border-box;
+    margin: 0; /*tira a margem de todo o código*/
+}

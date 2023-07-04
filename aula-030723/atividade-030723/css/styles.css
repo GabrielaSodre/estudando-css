@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("https://images.unsplash.com/photo-1593291619431-271d4391ded1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16px 32px; 
+}
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 5rem;
+    text-shadow: 3px 3px 3px #636161;
+    text-align: center;
+    margin: 25px;   
+}
+p {
+    font-family: 'Bacasime Antique', serif;
+    text-align: justify;
+    font-size: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.644);
+    color: white;
+    margin: 5px;
+}
+p:hover {
+    background-color: rgb(4, 163, 142);
+}
+.subtitulo {
+    text-align: center;
+    font-size: 3rem;
+    margin: 15px;
+}
+.button {
+    display: inline;
+    width: 200px;
+    height: 100px;
+    background-color: rgba(255, 248, 248, 0.575);
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+.button:hover {
+    background-color: aqua;
+}
+.links {
+    background-color: rgba(255, 248, 248, 0.575);
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 10px;
+    font-style: italic;
+}   
+.palavra:hover{
+    background-color: rgb(4, 163, 142);
+}
+html {
+    font-size: 10px;
+}
+.navegacao ul {
+    background-color: blueviolet;
+
+}
+.navegacao li{
+    display: inline-block;
+}
+.navegacao a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 8px;
+}

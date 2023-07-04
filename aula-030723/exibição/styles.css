@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.inline {
+    display: inline;
+}
+
+.none {
+    display: none;
+}
+.inline-block {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+}
+/*
+    DISPLAY:
+        display: block -> ocuoa toda a largura e quebra linha no final
+        display: inline -> ocupar apenas o necessário
+        display none:
+*/
